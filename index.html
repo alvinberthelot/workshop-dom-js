@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <title>HELLO WORLD WORKSHOP</title>
   <script>
-    var sayHello = function () {
-      console.log('HELLO')
+    var sayHello = function (firstname) {
+      console.log(`HELLO ${firstname}, ça va aujourd'hui ?`)
     }
   </script>
 </head>
@@ -13,8 +13,11 @@
 <body>
   <h1>HELLO WORLD WORKSHOP</h1>
 
-  <button onclick="sayHello()">
-    TU SAIS PAS CLIQUER
+  <button onclick="sayHello('Julie')">
+    JULIE
+  </button>
+  <button onclick="sayHello('Marc')">
+    MARC
   </button>
 
 </body>
